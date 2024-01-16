@@ -2,6 +2,7 @@ from Bot import AddBot, ExitBot, SearchBot, EditBot, RemoveBot, SaveBot, LoadBot
 
 
 if __name__ == "__main__":
+    app.run(debug=Fulse, host='0.0.0.0')
     choice = {
         "add": AddBot,
         "search": SearchBot,
