@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mane"
+version = "0.1.0"
+description = ""
+authors = ["Prykval <pryvalera21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+art = "^6.1"
+cryptography = "^3.4"
+rich = "^10.16.2"
+colorama = "^0.4.6"
+prompt-toolkit = "^3.0.43"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

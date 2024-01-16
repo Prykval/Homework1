@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class AbstractBot(abc.ABC):
+class AbstractBot(ABC):
     def __init__(self, book: AddressBook):
         self.book = book
 
